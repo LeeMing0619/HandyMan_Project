@@ -52,8 +52,7 @@ app.use((error, req, res, next) => {
    start listening for incoming request */
 
 mongoose
-    .connect(
-        //`mongodb+srv://handy:${process.env.DB_PASS}@handyman-odppl.mongodb.net/handyManDB?retryWrites=true&w=majority
+    .connect(        
         `mongodb+srv://wuxiaofei:panda0619@cluster0.3zfue.mongodb.net/myFirstDatabase?retryWrites=true&w=majority
     `,
 
