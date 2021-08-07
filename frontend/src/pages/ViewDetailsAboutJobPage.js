@@ -35,7 +35,7 @@ function ViewDetailsAboutJobPage(props) {
         }
 
         getJobById();
-    }, []);
+    }, [job.id]);
 
     return (
         <>

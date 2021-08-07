@@ -25,7 +25,6 @@ export const useHttpClient = () => {
         ) => {
             setIsLoading(true);
             try {
-                console.log("" + method + "==" +  body + "==" + headers);
                 const response = await fetch(url, {
                     method,
                     body,
